@@ -6,7 +6,7 @@ import bootstrap from "./assets/images/Skills/bootstrap.png";
 import wordpress from "./assets/images/Skills/wp.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
-import tailwind from "./assets/images/Skills/tailwind.png";
+import tailwind from "./assets/images/Skills/Tailwind.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
