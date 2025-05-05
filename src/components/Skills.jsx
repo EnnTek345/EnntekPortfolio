@@ -48,16 +48,12 @@ const Skills = () => {
         </div>
         <br />
         <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
-          <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
-          </li>
+          <li>Figma: Creating wireframes, prototypes, and design systems</li>
+          <li>Node.js: Building RESTful APIs and server-side applications</li>
+          <li>WordPress: Custom theme development and WooCommerce integration</li>
+          <li>React: State management with Redux/Context API and component architecture</li>
+          <li>Bootstrap: Rapid responsive layout development</li>
+          <li>Tailwind CSS: Efficient utility-first CSS workflows</li>
         </ul>
         <br />
         <div className="flex justify-end">

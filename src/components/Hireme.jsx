@@ -33,9 +33,15 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <button className="btn bg-dark_primary text-white">
-              {Hireme.btnText}
-            </button>
+            <a 
+              href="https://wa.me/2348167536391?text=Hello!%20I%20require%20your%20service" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <button className="btn bg-dark_primary text-white">
+                {Hireme.btnText}
+              </button>
+            </a>
           </div>
         </div>
       </div>

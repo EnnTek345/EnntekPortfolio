@@ -2,11 +2,11 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
 import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import bootstrap from "./assets/images/Skills/bootstrap.png";
+import wordpress from "./assets/images/Skills/wp.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import tailwind from "./assets/images/Skills/tailwind.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -27,7 +27,8 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
@@ -59,17 +60,17 @@ export const content = {
   ],
   hero: {
     title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
+    firstName: "ENN",
+    LastName: "TEK",
+    btnText: "Message Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "4+",
+        text: "Years of Experience in Web development",
       },
       {
-        count: "20+",
+        count: "12+",
         text: "Projects Worked in my career",
       },
     ],
@@ -80,34 +81,34 @@ export const content = {
     skills_content: [
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: "UI/UX design tool.",
         logo: figma,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        name: "Node.js",
+        para: "Backend JavaScript runtime.",
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "WordPress",
+        para: "Website and blog platform.",
+        logo: wordpress,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
+        name: "React.js",
+        para: "Frontend JS library.",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "Bootstrap",
+        para: "CSS framework for layouts.",
+        logo: bootstrap,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
-      },
+        name: "Tailwind CSS",
+        para: "Utility-first CSS.",
+        logo: tailwind,
+      }, 
     ],
     icon: MdArrowForward,
   },
@@ -117,100 +118,104 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Custom websites built with, HTML, CSS, JavaScript, React, Node.js and WordPress. Fast, mobile-friendly, and tailored to your goals.",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Tech Tutoring",
+        para: "Online and [1-on-1 lessons (coming soon!)] in web development, programming, and tools like Git and Figma. Learn at your pace.",
         logo: services_logo2,
       },
       {
         title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Professional photo retouching and re presentation for web and print media.",
         logo: services_logo3,
       },
     ],
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
+    subtitle: "MY WORKS",
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Media Website",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "e-Commerce Website",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "Personal Blog",
         image: project3,
       },
     ],
   },
   Testimonials: {
     title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
+    subtitle: "CLIENT REVIEWS",
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Working with you was a game-changer for our business. The website you built not only looks stunning but has improved our conversion rate by 40%. Highly recommend your development skills!”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "Sarah Johnson",
+        role: "CEO, TechSolutions Inc."
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Your tutoring sessions transformed my understanding of React. In just 3 months, I went from beginner to landing my first front-end developer job. Your teaching style is incredibly effective!”",
         img: avatar2,
-        name: "Tom Alex",
+        name: "Michael Chen",
+        role: "Junior Developer"
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“The Photoshop work you delivered for our marketing campaign was exceptional. You perfectly captured our brand aesthetic while adding creative touches we hadn't even considered.”",
         img: avatar3,
-        name: "Johnny",
+        name: "Emily Rodriguez",
+        role: "Marketing Director"
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Reliable, skilled, and great communicator. You've been handling our WordPress maintenance for a year now, and we've had zero downtime. Worth every penny!”",
         img: avatar4,
-        name: "ROBBIN",
-      },
+        name: "David Wilson",
+        role: "Small Business Owner"
+      }
     ],
   },
   Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
+    title: "Contact Me",
+    subtitle: "FOR YOUR NEEDS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-    btnText: "Hire Me",
+    para: "In tutoring and web development, my skills are unmatched. I simplify complex concepts for learners and build high-performance websites with precision—delivering excellence in both teaching and tech",
+    btnText: "Message Me",
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "enntech345@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:enntech345@gmail.com",
       },
       {
-        text: "+91 1234 56778",
-        icon: MdCall,
-        link: "https://wa.me/1234567890",
+        text: "+234 81 6753 6391",
+        icon: FaWhatsapp,
+        link: "https://wa.me/2348167536391",
       },
       {
-        text: "codeaprogram",
+        text: "EnnTech IG",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/hakeem.muhideen/",
       },
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copyrights Reserved 2025",
   },
 };
