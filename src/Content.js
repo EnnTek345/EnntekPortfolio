@@ -66,7 +66,7 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "4+",
+        count: "1+",
         text: "Years of Experience in Web development",
       },
       {
